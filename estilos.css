@@ -1,3 +1,73 @@
 body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    color: black;
+}
+header {
+    background-color: yellow;
+    color: black;
+    margin: -1em;
+    padding: 1em;
+    padding-left: 2em;
+}
+nav {
+    margin: 1em;
+}
+#principal {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    margin:auto;
+    padding: 2em;
+}
+main {
+    flex: 5;
+    text-align: center;
+}
+aside {
+    flex: 1;
+}
+
+.yt {
+    color: red;
+    font-weight: bold;
+}
+
+.tt {
+    color: white;
+    font-weight: bold;
+    text-shadow: -2px -1px 0px #00f2fe, 2px 1px 0px #fe0979;
+}
+
+.ig {
+    font-weight: bold;
+    background: linear-gradient(45deg, #fdf497 0%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ds {
+    color: #5865F2;
+    font-weight: bold;
+}
+
+footer {
+    text-align: right;
     background-color: black;
+    color: yellow;
+    /*
+    margin: -1em;
+    padding: 1em;
+    
+    position: absolute;
+    bottom: 0;
+    width: 100%;*/
+    padding-right: 2em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 98.5%;
+    margin: 0;
+    padding: 1em;
 }
